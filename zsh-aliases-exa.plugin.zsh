@@ -4,12 +4,11 @@
 # Created:  2019-04-12 19:07:28
 # Author:   Darrin Tisdale
 # -----
-# Modified: 2019-05-14 23:18:24
-# Editor:   Darrin Tisdale
-#
+# Modified: 2019-10-04 09:00:00
+# Editor:   Alex Eyre
 
 # general use
-alias ls='exa'                                                         # ls
+alias ls='exa_wsl'                                                         # ls
 alias exa_wsl="exa -I NTUSER.DAT\*\|ntuser.\*"
 alias l='exa_wsl --group-directories-first -lbF --git'                                               # list, size, type, git
 alias ll='exa_wsl -lbGF --git'                                             # long list
