@@ -9,7 +9,7 @@
 
 # general use
 alias ls='exa_wsl'                                                         # ls
-alias exa_wsl="exa -I NTUSER.DAT\*\|ntuser.\*"
+alias exa_wsl="exa -I NTUSER.DAT\*\|ntuser.\* --icons"
 alias l='exa_wsl --group-directories-first -lbF --git'                                               # list, size, type, git
 alias ll='exa_wsl -lbGF --git'                                             # long list
 alias llm='exa_wsl -lbGF --git --sort=modified'                            # long list, modified date sort
