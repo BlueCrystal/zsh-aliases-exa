@@ -13,8 +13,8 @@ alias exa_wsl="exa -I NTUSER.DAT\*\|ntuser.\* --icons"
 alias l='exa_wsl --group-directories-first -lbF --git'                                               # list, size, type, git
 alias ll='exa_wsl -lbGF --git'                                             # long list
 alias llm='exa_wsl -lbGF --git --sort=modified'                            # long list, modified date sort
-alias la='exa_wsl -lbhHigUmuSa --time-style=long-iso --git --color-scale'  # all list
-alias lx='exa -lbhHigUmuSa@ --time-style=long-iso --git --color-scale' # all + extended list
+alias la='exa_wsl -lbhHigUmuSa --git --color-scale'  # all list
+alias lx='exa -lbhHigUmuSa@ --git --color-scale' # all + extended list
 
 # speciality views
 alias lS='exa_wsl -1'			                                                  # one column, just names
